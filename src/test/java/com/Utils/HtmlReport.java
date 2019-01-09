@@ -108,7 +108,8 @@ public class HtmlReport {
       else
         extentTest.log(status, message);
     } catch (Exception e) {
-      System.out.println("Error al añadir mensaje y capture en extent report " + e.toString());
+      System.out.println("\n"
+          + "Error adding message and capture in extent report " + e.toString());
     }
   }
 
