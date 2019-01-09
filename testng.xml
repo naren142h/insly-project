@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Insly Tests" parallel="false">
-  <test name="Test Cases">
+<suite name="All Test Suite">
+  <test verbose="2" preserve-order="true"
+    name="/Users/Naren/Desktop/insly-project/src/test/java/com/TestScripts/TestCases.java">
     <classes>
-      <class name="src.test.java.com.TestScripts.TestCases"/>
+      <class name="com.TestScripts.TestCases">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+</suite>
