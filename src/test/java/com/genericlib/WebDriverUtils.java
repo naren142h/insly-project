@@ -1,4 +1,4 @@
-package src.test.java.com.genericlib;
+package com.genericlib;
 
 import java.awt.AWTException;
 import java.awt.Robot;

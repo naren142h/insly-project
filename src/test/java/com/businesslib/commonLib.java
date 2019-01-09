@@ -1,6 +1,6 @@
-package src.test.java.com.businesslib;
+package com.businesslib;
 
-import src.test.java.com.genericlib.WebDriverUtils;
+import com.genericlib.WebDriverUtils;
 
 public class commonLib extends WebDriverUtils {
 

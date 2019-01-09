@@ -1,4 +1,4 @@
-package src.test.java.com.webElementRepository;
+package com.webElementRepository;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
